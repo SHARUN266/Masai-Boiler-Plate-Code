@@ -6,13 +6,7 @@ const UserAPI = createApi({
   baseQuery: fetchBaseQuery({
     baseUrl: "https://mock15-bhoj.onrender.com/",
   }),
-  endpoints: (builder) => ({
-    allTicket: builder.query({
-      query: (category) => ({
-        url: `/?category=${category}`,
-        method: "GET",
-      }),
-    }),
+
     createTicket: builder.mutation({
       query: (data) => ({
         url: "/",
