@@ -1,4 +1,5 @@
-
+// First install react-toolkit
+import { fetchBaseQuery, createApi } from "@reduxjs/toolkit/query/react";
 
 const UserAPI = createApi({
   reducerPath: "UserApis",
