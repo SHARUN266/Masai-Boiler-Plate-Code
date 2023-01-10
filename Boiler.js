@@ -1,4 +1,12 @@
 
+function runProgram(input) {
+  input = input.trim().split("\n");
+
+
+
+
+  
+}
 
 process.stdin.resume();
 process.stdin.setEncoding("ascii");
